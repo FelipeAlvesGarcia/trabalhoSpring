@@ -1,8 +1,9 @@
-.card{
+.cardH{
     border:1px solid black;
     padding:1rem;
     box-shadow:5px 5px 5px black;
+    text-decoration:none;
 }
-.card > p{
+.card p{
     margin:0;
 }
