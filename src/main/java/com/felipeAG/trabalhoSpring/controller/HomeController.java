@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @RestController
 @RequestMapping("/")
-public class homeController {
+public class HomeController {
     @GetMapping
     public ModelAndView home (){
         ModelAndView mv = new ModelAndView("home/index");
